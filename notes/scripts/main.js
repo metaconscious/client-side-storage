@@ -62,6 +62,8 @@ function displayData() {
             deleteBtn.textContent = 'Delete';
 
             deleteBtn.addEventListener('click', deleteItem);
+
+            cursor.continue();
         } else {
             if (!list.firstChild) {
                 emptyNoteFallback();
